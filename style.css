@@ -1,0 +1,22 @@
+#spinner{
+  height: 150px;
+  width: 150px;
+  border: 7px solid;
+  border-radius: 50%;
+  border-color: red black black black;
+  animation: rotate 1.5s linear infinite;
+  top: 500px;
+}
+
+.back{
+  width: 175px;
+  height: 175px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotate{
+  to { transform: rotate(365deg); }
+}
